@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #e3350d;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#buscador-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+input[name="buscador"] {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input[name="buscador"]:focus {
+    border-color: #e3350d;
+}
+
+#search-btn {
+    padding: 12px 20px;
+    background-color: #e3350d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#search-btn:hover {
+    background-color: #c22906;
+}
+
+#pokemon-container {
+    background-color: white;
+    width: 100%;
+    max-width: 340px;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+#pokemon-container h2 {
+    font-size: 1.6rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+#pokemon-container img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#pokemon-data {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.data {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+}
